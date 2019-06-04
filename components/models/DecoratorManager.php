@@ -41,7 +41,7 @@ class DecoratorManager {
     /**
      * 
      * @param DataProviderInterface $dataProvider
-     * @param CacheInterface $cache
+     * @param CacheItemPoolInterface $cache
      * @param LoggerInterface $logger
      */
     public function __construct(DataProviderInterface $dataProvider, CacheItemPoolInterface $cache, LoggerInterface $logger )
